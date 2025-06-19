@@ -1,6 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // No experimental options needed for Next.js 15+
+  basePath: "/lost-keepers",
+  assetPrefix: "/lost-keepers",
+  trailingSlash: true,
+  images: {
+    unoptimized: true,
+  },
+  output: "export",
 };
 
 module.exports = nextConfig;
