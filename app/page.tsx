@@ -376,7 +376,7 @@ export default function Home() {
                 <video
                   controls
                   className="w-full h-full object-cover"
-                  poster="/environment_concept.jpeg"
+                  poster="environment_concept.jpeg"
                 >
                   <source src="environment_reel.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
