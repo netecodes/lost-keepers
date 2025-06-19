@@ -19,15 +19,15 @@ export default function Home() {
   }, []);
 
   const characterImages = [
-    { src: "/characters_1.jpeg", alt: "Lost Keepers Characters 1" },
-    { src: "/characters_2.jpeg", alt: "Lost Keepers Characters 2" },
+    { src: "characters_1.jpeg", alt: "Lost Keepers Characters 1" },
+    { src: "characters_2.jpeg", alt: "Lost Keepers Characters 2" },
   ];
 
   const environmentImages = [
-    { src: "/environment_1.jpeg", alt: "Game Environment 1" },
-    { src: "/environment_2.jpeg", alt: "Game Environment 2" },
-    { src: "/environment_3.jpeg", alt: "Game Environment 3" },
-    { src: "/environment_concept.jpeg", alt: "Environment Concept Art" },
+    { src: "environment_1.jpeg", alt: "Game Environment 1" },
+    { src: "environment_2.jpeg", alt: "Game Environment 2" },
+    { src: "environment_3.jpeg", alt: "Game Environment 3" },
+    { src: "environment_concept.jpeg", alt: "Environment Concept Art" },
   ];
 
   return (
@@ -55,7 +55,7 @@ export default function Home() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/environment_concept.jpeg"
+            src="environment_concept.jpeg"
             alt="Hero Background"
             fill
             className="object-cover opacity-30"
@@ -129,7 +129,7 @@ export default function Home() {
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20 hover:bg-white/15 transition-all duration-300">
               <div className="flex items-center justify-center">
                 <Image
-                  src="/steam_logo.png"
+                  src="steam_logo.png"
                   alt="Steam Logo"
                   width={240}
                   height={240}
@@ -378,7 +378,7 @@ export default function Home() {
                   className="w-full h-full object-cover"
                   poster="/environment_concept.jpeg"
                 >
-                  <source src="/environment_reel.mp4" type="video/mp4" />
+                  <source src="environment_reel.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>
