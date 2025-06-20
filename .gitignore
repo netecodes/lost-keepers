@@ -3,7 +3,7 @@ node_modules/
 .pnp
 .pnp.js
 
-# Production build (we want to include 'out' for GitHub Pages)
+out/
 .next/
 
 # Environment variables

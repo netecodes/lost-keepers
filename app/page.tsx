@@ -433,7 +433,7 @@ export default function Home() {
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-400">Art Style:</span>
-                  <span className="text-white">Fantasy Realism</span>
+                  <span className="text-white">Stylized Fantasy</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-400">World:</span>
